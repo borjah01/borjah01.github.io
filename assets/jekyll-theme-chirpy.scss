@@ -1,0 +1,26 @@
+---
+---
+
+@import "colors/dark";
+
+:root[data-mode="dark"], :root {
+  --main-bg: #0a0a0f;
+  --sidebar-bg: #0d0d1a;
+  --text-color: #e0e0e0;
+  --link-color: #4d9fff;
+  --heading-color: #5bb8ff;
+  --code-bg: #111122;
+  --highlight-color: #00d4ff;
+  --border-color: #1a1a3a;
+}
+
+:root[data-mode="light"] {
+  --main-bg: #f0f4ff;
+  --sidebar-bg: #e8eeff;
+  --text-color: #1a1a2e;
+  --link-color: #1a6fd4;
+  --heading-color: #1550a8;
+  --code-bg: #dde8ff;
+  --highlight-color: #0077cc;
+  --border-color: #c0cfe8;
+}
