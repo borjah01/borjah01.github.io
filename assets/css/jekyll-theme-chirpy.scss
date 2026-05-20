@@ -2,21 +2,21 @@
 ---
 
 [data-mode="dark"], body {
-  --body-bg: #0a0a0f;
-  --sidebar-bg: #0d0d1a;
-  --text-color: #e0e0e0;
-  --link-color: #4d9fff;
-  --heading-color: #5bb8ff;
-  --code-bg: #111122;
-  --btn-border-color: #1a1a3a;
+  --body-bg: #0a0a0f !important;
+  --sidebar-bg: #0d0d1a !important;
+  --text-color: #e0e0e0 !important;
+  --link-color: #4d9fff !important;
+  --heading-color: #5bb8ff !important;
+  --code-bg: #111122 !important;
+  --btn-border-color: #1a1a3a !important;
 }
 
 [data-mode="light"] {
-  --body-bg: #f0f4ff;
-  --sidebar-bg: #e8eeff;
-  --text-color: #1a1a2e;
-  --link-color: #1a6fd4;
-  --heading-color: #1550a8;
-  --code-bg: #dde8ff;
-  --btn-border-color: #c0cfe8;
+  --body-bg: #f0f4ff !important;
+  --sidebar-bg: #e8eeff !important;
+  --text-color: #1a1a2e !important;
+  --link-color: #1a6fd4 !important;
+  --heading-color: #1550a8 !important;
+  --code-bg: #dde8ff !important;
+  --btn-border-color: #c0cfe8 !important;
 }
