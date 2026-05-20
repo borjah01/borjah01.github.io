@@ -4,12 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
----
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
----
-
 ## Sobre mí
 
 Técnico en Administración de Sistemas Informáticos en Red con especialización en Ciberseguridad. Experiencia en administración de infraestructuras, análisis de amenazas y seguridad ofensiva. Interesado en CTFs, pentesting y entornos Linux.
