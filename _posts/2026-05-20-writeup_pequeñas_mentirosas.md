@@ -130,9 +130,7 @@ sudo -l
 No se obtienen privilegios sudo para `a`. Exploramos el sistema de ficheros en busca de información útil:
 
 ```bash
-ls /
-ls -al /srv/
-ls -al /srv/ftp/
+find /srv /opt /home /tmp -type f 2>/dev/null
 ```
 
 Encontramos un directorio `/srv/ftp/` con varios archivos de interés:
